@@ -1,0 +1,15 @@
+{
+  "source_product": "NASA NSIDC ATL24 Version 003",
+  "source_class": 40,
+  "confidence_min": 0.7,
+  "aoi_bbox_wgs84": {
+    "west": -9.85,
+    "south": 30.35,
+    "east": -9.55,
+    "north": 30.55
+  },
+  "retained_points": 12715,
+  "height_reference": "EGM08 orthometric heights; instantaneous depth = surface_h - ortho_h",
+  "photon_identifier": "source_photon_index is ATL24 index_ph inherited from the ATL03 photon index; use granule_id + beam + source_photon_index to identify a photon.",
+  "warning": "ATL24 track points are sparse and time-varying. Do not interpret them as a continuous, contemporaneous bathymetric surface."
+}

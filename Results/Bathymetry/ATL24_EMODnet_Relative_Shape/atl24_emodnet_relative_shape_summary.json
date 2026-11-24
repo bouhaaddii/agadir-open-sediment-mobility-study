@@ -1,0 +1,80 @@
+{
+  "analysis": "per-granule-median-centered relative relief comparison; no vertical shift was estimated or applied",
+  "atl24_input": "G:\\Agadir_Open_Sediment_Mobility_Study\\Data\\Processed\\ATL24\\atl24_bathy_points.csv.gz",
+  "emodnet_input": "G:\\Agadir_Open_Sediment_Mobility_Study\\Data\\Raw\\Bathymetry\\emodnet_mean_2022_anza.tif",
+  "emodnet_crs": "EPSG:4326",
+  "emodnet_bounds": [
+    -9.849999999999994,
+    30.349999999999998,
+    -9.549999999999994,
+    30.549999999999997
+  ],
+  "emodnet_resolution_degrees": [
+    0.0010416666666666667,
+    0.0010416666666666667
+  ],
+  "atl24_input_photons": 12715,
+  "photons_over_negative_emodnet_cells": 9685,
+  "granules_with_any_overlap": 52,
+  "primary_min_photons_per_cell": 3,
+  "minimum_matched_cells_per_granule": 5,
+  "primary_summary": {
+    "min_photons_per_cell": 3,
+    "matched_cells": 647,
+    "passes": 30,
+    "pooled_Pearson_r": 0.27623240041153657,
+    "pooled_Spearman_rho": 0.19968756514897948,
+    "pooled_relative_shape_MAE_m": 8.839200150318568,
+    "pooled_relative_shape_RMSE_m": 14.07643988447792,
+    "median_pass_Pearson_r": 0.3585383270199777,
+    "median_pass_Spearman_rho": 0.39635331143951824,
+    "median_pass_relative_shape_MAE_m": 7.3422945919088445,
+    "median_pass_relative_shape_RMSE_m": 9.919213274026745,
+    "median_absolute_raw_pass_offset_m": 41.646434374153614
+  },
+  "threshold_sensitivity": [
+    {
+      "min_photons_per_cell": 1,
+      "matched_cells": 1103,
+      "passes": 37,
+      "pooled_Pearson_r": 0.21254551924093548,
+      "pooled_Spearman_rho": 0.13576946674099646,
+      "pooled_relative_shape_MAE_m": 9.980151219000378,
+      "pooled_relative_shape_RMSE_m": 14.582023555704039,
+      "median_pass_Pearson_r": 0.18950496775521258,
+      "median_pass_Spearman_rho": 0.2527472527472528,
+      "median_pass_relative_shape_MAE_m": 8.500908201903705,
+      "median_pass_relative_shape_RMSE_m": 11.151886125840509,
+      "median_absolute_raw_pass_offset_m": 32.81036430597305
+    },
+    {
+      "min_photons_per_cell": 3,
+      "matched_cells": 647,
+      "passes": 30,
+      "pooled_Pearson_r": 0.27623240041153657,
+      "pooled_Spearman_rho": 0.19968756514897948,
+      "pooled_relative_shape_MAE_m": 8.839200150318568,
+      "pooled_relative_shape_RMSE_m": 14.07643988447792,
+      "median_pass_Pearson_r": 0.3585383270199777,
+      "median_pass_Spearman_rho": 0.39635331143951824,
+      "median_pass_relative_shape_MAE_m": 7.3422945919088445,
+      "median_pass_relative_shape_RMSE_m": 9.919213274026745,
+      "median_absolute_raw_pass_offset_m": 41.646434374153614
+    },
+    {
+      "min_photons_per_cell": 5,
+      "matched_cells": 403,
+      "passes": 23,
+      "pooled_Pearson_r": 0.26120248756424835,
+      "pooled_Spearman_rho": 0.15567987570267253,
+      "pooled_relative_shape_MAE_m": 7.538221126697003,
+      "pooled_relative_shape_RMSE_m": 13.095917363175179,
+      "median_pass_Pearson_r": 0.4505109830043501,
+      "median_pass_Spearman_rho": 0.3714285714285715,
+      "median_pass_relative_shape_MAE_m": 4.385726830363273,
+      "median_pass_relative_shape_RMSE_m": 7.307764870793832,
+      "median_absolute_raw_pass_offset_m": 3.031455621123314
+    }
+  ],
+  "interpretation": "Descriptive relative-relief comparison only. ATL24 instantaneous depth and EMODnet LAT-referenced DTM differ in vertical reference, acquisition support, spatial resolution and source lineage. Per-pass centering removes a constant offset and therefore cannot establish a datum tie; it also does not remove spatially varying tide or product errors."
+}

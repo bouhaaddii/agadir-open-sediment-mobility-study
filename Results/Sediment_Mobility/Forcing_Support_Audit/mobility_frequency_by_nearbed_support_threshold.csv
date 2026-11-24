@@ -1,0 +1,13 @@
+maximum_current_level_offset_above_bed_m,d50_scenario_mm,supported_nodes,node_median_frequency_median,node_median_frequency_mean,node_median_frequency_min,node_median_frequency_max,interpretation
+2.0,0.1,4,0.6528887728577346,0.6577228671083372,0.5248916371082674,0.8002222856096122,descriptive sensitivity over nodes meeting the vertical support threshold; frequencies remain scenario conditional
+2.0,0.25,4,0.6443000501190126,0.6494796862216765,0.5161280618660925,0.7931905827825882,descriptive sensitivity over nodes meeting the vertical support threshold; frequencies remain scenario conditional
+2.0,0.5,4,0.5924303638489897,0.5996853997891026,0.46815777443651024,0.7457230970219207,descriptive sensitivity over nodes meeting the vertical support threshold; frequencies remain scenario conditional
+2.0,1.0,4,0.4273172254157649,0.43778312810322906,0.32232863783185045,0.574169423749536,descriptive sensitivity over nodes meeting the vertical support threshold; frequencies remain scenario conditional
+5.0,0.1,9,0.6123581774298992,0.5896448402157296,0.3924909578962692,0.8002222856096122,descriptive sensitivity over nodes meeting the vertical support threshold; frequencies remain scenario conditional
+5.0,0.25,9,0.6025793295870312,0.5805712516938369,0.38180964551945157,0.7931905827825882,descriptive sensitivity over nodes meeting the vertical support threshold; frequencies remain scenario conditional
+5.0,0.5,9,0.5487070315416727,0.5304121296485802,0.33392584427437283,0.7457230970219207,descriptive sensitivity over nodes meeting the vertical support threshold; frequencies remain scenario conditional
+5.0,1.0,9,0.38288454524113796,0.37481841034811675,0.20439639895163703,0.574169423749536,descriptive sensitivity over nodes meeting the vertical support threshold; frequencies remain scenario conditional
+10.0,0.1,11,0.5299153563472533,0.5458227099632817,0.32036738901432077,0.8002222856096122,descriptive sensitivity over nodes meeting the vertical support threshold; frequencies remain scenario conditional
+10.0,0.25,11,0.5215073951059562,0.5366093674939599,0.3113244795116378,0.7931905827825882,descriptive sensitivity over nodes meeting the vertical support threshold; frequencies remain scenario conditional
+10.0,0.5,11,0.4754285229287768,0.48762610269274803,0.26907732133485246,0.7457230970219207,descriptive sensitivity over nodes meeting the vertical support threshold; frequencies remain scenario conditional
+10.0,1.0,11,0.33256408975439533,0.338819272638003,0.15618008250029947,0.574169423749536,descriptive sensitivity over nodes meeting the vertical support threshold; frequencies remain scenario conditional

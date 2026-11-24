@@ -1,0 +1,18 @@
+{
+  "forcing": "Copernicus Marine IBI multi-year hourly zos, sea_surface_height_above_geoid; hourly mean fields",
+  "pairwise_adjustment": "depth_S2 = ATL24 instantaneous_depth + zos(scene_time, same nearest native wet cell) - zos(ATL24_time, same cell)",
+  "spatial_sampling": "nearest persistent wet native IBI cell; no spatial interpolation or extrapolation; sensitivity radii reported",
+  "time_sampling": "linear interpolation in time only between adjacent hourly values; no temporal extrapolation; intervals >2.1 h rejected",
+  "validation": "GroupKFold by full ATL24 granule; primary status requires >=5 independent granules and >=50 pairs; 3-4 groups labeled exploratory",
+  "matchup_identity": "Retains source_photon_index inherited from ATL24 index_ph for audit of repeated photon-to-scene pairings.",
+  "caveats": "Regional hourly-mean reanalysis is not a local tide gauge, absolute vertical datum tie, surf-zone or runup model. Centered anomaly consistency is not independent validation. This analysis calibrates only sampled track locations and does not validate a continuous bathymetric map.",
+  "input_selection": "G:\\Agadir_Open_Sediment_Mobility_Study\\Data\\Manifests\\sentinel2_atl24_pm24h_selection.csv",
+  "ssh_input": "G:\\Agadir_Open_Sediment_Mobility_Study\\Data\\Raw\\Forcing\\IBI_ssh_Anza_hourly.nc",
+  "selected_scenes": 42,
+  "maximum_time_gap_hours": 24,
+  "distance_sensitivity_km": [
+    2.5,
+    5.0,
+    10.0
+  ]
+}

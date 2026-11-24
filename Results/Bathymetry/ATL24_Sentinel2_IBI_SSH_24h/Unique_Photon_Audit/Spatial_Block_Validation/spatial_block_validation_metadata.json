@@ -1,0 +1,33 @@
+{
+  "input": "G:\\Agadir_Open_Sediment_Mobility_Study\\Results\\Bathymetry\\ATL24_Sentinel2_IBI_SSH_24h\\Unique_Photon_Audit\\nearest_scene_unique_photon_pairs.csv.gz",
+  "unique_photon_key": [
+    "granule_id",
+    "beam",
+    "source_photon_index"
+  ],
+  "maximum_distances_km": [
+    5.0
+  ],
+  "windows": [
+    "primary_0_6h",
+    "combined_0_24h"
+  ],
+  "block_sizes_m": [
+    1000,
+    2000
+  ],
+  "buffer_rule": "half of block width unless an explicit minimum buffer is supplied",
+  "fold_assignment": "up to five contiguous bands of projected-easting block columns",
+  "additional_independence_rule": "exclude all training photons from any ATL24 granule represented in the held-out spatial fold",
+  "models": [
+    "Log_blue_green_ratio_OLS",
+    "Multiband_RandomForest"
+  ],
+  "targets": {
+    "raw_instantaneous_depth": "instantaneous_depth_m",
+    "IBI_zos_relative_adjustment": "depth_ibi_corrected_at_s2_m"
+  },
+  "bootstrap_replicates": 2000,
+  "bootstrap_seed": 20261124,
+  "interpretation": "Buffered within-site spatial transfer diagnostic. It is not external validation, a datum correction, or accuracy evidence for unsampled seafloor."
+}

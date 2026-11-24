@@ -1,0 +1,7 @@
+dataset,study_support,role,interpretation_limit
+ICESat-2 ATL24 v003,"94 complete granules in downloaded inventory; matchup tables retain unique photons by granule, beam, and source index",Along-track bathymetry and sea surface; official product includes orthometric/ellipsoidal heights and instantaneous depth,"Reference observations, not error-free continuous truth"
+Sentinel-2 L2A,26 scene IDs represented in the ATL24–S2 matchup table,Visible/NIR reflectance and water/cloud QA,Coastal spectral retrieval; temporal gaps are separated
+IBI hourly sea-level height zos,Hourly; product resolution 0.027°; 2018-10-14 to 2026-08-25 requested,Regional relative sea-level change only,No local gauge validation or absolute datum tie
+IBI waves,Hourly; product resolution 0.027°,"Significant wave height, peak period, direction",Regional forcing; not surf-zone transformed
+IBI currents,Daily; vertical levels requested 0–30 m,Eastward and northward currents,44 wave nodes; sampled-level-to-bed offset is audited
+EMODnet DTM 2022,Subset on 0.3° × 0.2° AOI; nominal raster spacing ~0.00104°,Regional depth context and mobility input,Vertical reference and local equivalence are not assumed

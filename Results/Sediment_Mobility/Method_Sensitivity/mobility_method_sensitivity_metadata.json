@@ -1,0 +1,17 @@
+{
+  "analysis": "descriptive comparison of three bed-stress formulations and their spatial ranking",
+  "input_rows": 176,
+  "d50_scenarios_mm": [
+    0.1,
+    0.25,
+    0.5,
+    1.0
+  ],
+  "spatial_quantiles": "Summaries across forcing grid nodes describe spatial heterogeneity; they are not confidence intervals and nodes are spatially dependent.",
+  "scenario_parameter_quantiles": "Soulsby P10/P90 values summarize the available prescribed depth, wave-height, and current-speed combinations at each node (maximum 27; shallow depth offsets may be omitted); they are not probabilistic intervals.",
+  "scenario_count_range_by_row": {
+    "minimum": 27,
+    "maximum": 27
+  },
+  "interpretation": "No formulation is independently validated at Anza. The directional Soulsby calculation uses regional forcing and assumed bed properties; it is a sensitivity comparison, not sediment transport or surf-zone prediction."
+}

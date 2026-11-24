@@ -1,0 +1,26 @@
+{
+  "method": "scenario-envelope screen using linear wave theory, Swart wave friction, quadratic current drag, and Soulsby-Whitehouse critical Shields number",
+  "current_data": "regional daily IBI; nearest wet vertical level not deeper than the nominal bottom",
+  "wave_data": "hourly regional IBI; no surf-zone transformation",
+  "bathymetry": "G:\\Agadir_Open_Sediment_Mobility_Study\\Data\\Raw\\Bathymetry\\emodnet_mean_2022_anza.tif",
+  "bathymetry_sign_assumption": "negative_elevation",
+  "scenario_count_per_grain_class": 27,
+  "separate_stress_screen": "max(current stress, wave stress); non-additive screening estimate, not a formal bound on full wave-current stress",
+  "aligned_stress_envelope": "sum of current and wave stresses; aligned-forcing envelope, not a validated combined-stress solution",
+  "interpretation": "scenario frequency is not a probability distribution, observed sediment flux, or measured grain-size-specific mobility",
+  "water_depth_offsets_m": [
+    -1.0,
+    0.0,
+    1.0
+  ],
+  "wave_height_multipliers": [
+    0.8,
+    1.0,
+    1.2
+  ],
+  "current_speed_multipliers": [
+    0.7,
+    1.0,
+    1.3
+  ]
+}

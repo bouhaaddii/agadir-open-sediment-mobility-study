@@ -1,0 +1,15 @@
+{
+  "model": "GOT5.6 standard ocean-tide constituents",
+  "spatial_extrapolation": false,
+  "n_atl24_passes_with_ge10_photons": 44,
+  "n_model_supported_passes": 12,
+  "support_fraction": 0.2727272727272727,
+  "metrics_on_model_supported_passes": {
+    "median_observed_minus_model_offset_m": -0.2518034061289749,
+    "centered_anomaly_correlation": 0.9535180240576674,
+    "centered_anomaly_MAE_m": 0.14032691146424286,
+    "centered_anomaly_RMSE_m": 0.2092495342686381,
+    "leave_one_pass_out_constant_offset_RMSE_m": 0.20003863105380187
+  },
+  "interpretation": "Exploratory consistency check against ATL24-derived surface_h estimates. It is not tide-gauge validation: residuals include non-tidal sea-level variability, wave/setup effects, surface-height uncertainty, spatial sampling, and any vertical-reference offset. The constant offset is removed only for anomaly comparison; it is not a vertical datum transformation."
+}

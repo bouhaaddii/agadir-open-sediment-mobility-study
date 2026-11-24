@@ -1,0 +1,11 @@
+{
+  "tide_model": "GOT5.6 standard ocean-tide constituents",
+  "spatial_extrapolation": false,
+  "primary_time_gap_hours": 6.0,
+  "extended_time_gap_hours": 24.0,
+  "depth_normalization": "depth_S2 = depth_ATL24 + eta_GOT56(t_S2) - eta_GOT56(t_ATL24)",
+  "model_validation": "GroupKFold grouped by full ATL24 granule; only model-supported clear-water pairs retained",
+  "n_training_pairs": 78,
+  "n_independent_atl24_granules": 2,
+  "caveat": "Relative astronomical-tide normalization only; no surge/runup correction or absolute vertical-datum tie. ATL24 tracks do not validate unsampled pixels."
+}

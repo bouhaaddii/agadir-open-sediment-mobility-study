@@ -1,0 +1,18 @@
+{
+  "temporal_window_hours": 24.0,
+  "scene_count": 11,
+  "exact_water_support_is_required_for_primary_sdb": true,
+  "near_water_distance_thresholds_m": [
+    10.0,
+    20.0,
+    30.0
+  ],
+  "distance_method": "Euclidean distance to the nearest SCL-class-6 clear-water pixel on the projected Sentinel-2 grid; no point was shifted or reassigned.",
+  "caution": "Near-water counts are sensitivity diagnostics only. They were not used to create training pairs; spatial reassignment requires a justified co-registration/error model and must be tested separately.",
+  "outputs": [
+    "atl24_scene_granule_spatial_support.csv",
+    "atl24_scene_spatial_support_summary.csv",
+    "Figure_Sentinel2_ATL24_spatial_support.png",
+    "Figure_Sentinel2_ATL24_spatial_support.pdf"
+  ]
+}

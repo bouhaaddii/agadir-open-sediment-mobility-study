@@ -1,0 +1,48 @@
+# Local environments and credentials
+/.venv/
+/.dodsrc
+/.copernicusmarine/
+/.earthaccess/
+__pycache__/
+*.py[cod]
+
+# Literature and submission documents are maintained separately
+/References/
+/Manuscript/
+/Supplementary/
+/Docs/
+/QA/
+/Reference_Pack_Open_Access*.zip
+/README*.md
+/PIPELINE*.md
+
+# Large source archives are retrieved with the project download scripts
+/Data/Raw/ATL24/
+/Data/Raw/Tide_Models/
+
+# Textual working notes and manuscript material stay outside the computational release
+/Results/**/*.txt
+/Results/**/*.md
+
+# Keep only Sentinel-2 scenes selected for the documented ATL24 matchup set
+/Data/Raw/Sentinel2/*
+!/Data/Raw/Sentinel2/20181231_S2B_29RMP_20181231_0_L2A_*
+!/Data/Raw/Sentinel2/20190331_S2B_29RMP_20190331_0_L2A_*
+!/Data/Raw/Sentinel2/20191116_S2B_29RMP_20191116_1_L2A_*
+!/Data/Raw/Sentinel2/20210514_S2A_29RMP_20210514_1_L2A_*
+!/Data/Raw/Sentinel2/20220514_S2B_29RMP_20220514_0_L2A_*
+!/Data/Raw/Sentinel2/20220812_S2B_29RMP_20220812_0_L2A_*
+!/Data/Raw/Sentinel2/20240321_S2B_29RMP_20240321_0_L2A_*
+!/Data/Raw/Sentinel2/20250917_S2C_29RMP_20250917_0_L2A_*
+!/Data/Raw/Sentinel2/20251216_S2C_29RMP_20251216_0_L2A_*
+
+# Do not version local backups of selection files
+*.bak
+
+# Reference-management and manuscript-building utilities are not part of the
+# computational data package.
+/Scripts/90_build_submission_documents.py
+/Scripts/90_prepare_reference_pack.py
+/Scripts/91_create_reference_notes_for_all_dois.py
+/Scripts/92_retry_alternate_open_pdf_locations.py
+/Scripts/93_build_submission_manifest.py

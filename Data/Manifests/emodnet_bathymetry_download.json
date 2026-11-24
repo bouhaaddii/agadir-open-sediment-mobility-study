@@ -1,0 +1,13 @@
+{
+  "source": "EMODnet Bathymetry WCS",
+  "coverage": "emodnet__mean_2022",
+  "bbox_wgs84": {
+    "west": -9.85,
+    "south": 30.35,
+    "east": -9.55,
+    "north": 30.55
+  },
+  "request_url": "https://ows.emodnet-bathymetry.eu/wcs?SERVICE=WCS&VERSION=2.0.1&REQUEST=GetCoverage&COVERAGEID=emodnet__mean_2022&SUBSET=Long%28-9.85%2C-9.55%29&SUBSET=Lat%2830.35%2C30.55%29&FORMAT=image%2Ftiff",
+  "bytes": 221568,
+  "vertical_datum_note": "Check source metadata for vertical reference and compilation details before fusion."
+}

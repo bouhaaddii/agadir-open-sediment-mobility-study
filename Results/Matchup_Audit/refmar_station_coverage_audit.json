@@ -1,0 +1,23 @@
+{
+  "audit_utc": "2026-11-23T15:51:48.542196+00:00",
+  "registry_url": "https://services.data.shom.fr/maregraphie/service/tidegauges",
+  "registry_record_count": 176,
+  "aoi_center_wgs84": {
+    "longitude": -9.7,
+    "latitude": 30.450000000000003
+  },
+  "stations_named_for_agadir_or_morocco": [],
+  "stations_within_500_km_of_aoi_center": 0,
+  "nearest_registry_station": {
+    "shom_id": "95",
+    "name": "SAINT-JEAN-DE-LUZ_SOCOA",
+    "network": "RONIM",
+    "state": "OK",
+    "longitude_deg": -1.68162,
+    "latitude_deg": 43.39524,
+    "distance_to_aoi_center_km": 1604.349781904908
+  },
+  "interpretation": "The public SHOM/REFMAR operational station registry has no station named Agadir/Morocco and no listed station within 500 km of the AOI. This registry is not an exhaustive inventory of Moroccan tide gauges and does not prove that no Moroccan agency holds observations. SHOM's separate Agadir archive inventory documents historical records from 1920 to 1959, which cannot validate sea level during the 2018-2026 satellite period.",
+  "historical_archive_inventory_url": "https://refmar.shom.fr/data-archaeology/liste-inventaire",
+  "historical_agadir_detail_url": "https://www.refmar.shom.fr/detail-des-documents-relatifs-au-port-agadir-maroc"
+}

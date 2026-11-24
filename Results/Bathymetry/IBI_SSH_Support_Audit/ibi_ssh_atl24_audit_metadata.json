@@ -1,0 +1,18 @@
+{
+  "dataset_id": "cmems_mod_ibi_phy-ssh_my_0.027deg_PT1H-m",
+  "variable": "zos (sea_surface_height_above_geoid)",
+  "time_range_in_download": [
+    "2018-10-14T00:00:00+00:00",
+    "2026-08-25T23:00:00+00:00"
+  ],
+  "atl24_granules": 54,
+  "valid_ibi_grid_cells": 44,
+  "maximum_distance_thresholds_km": [
+    2.5,
+    5.0,
+    10.0
+  ],
+  "primary_distance_threshold_km": 5.0,
+  "method": "Nearest wet IBI node to each ATL24 pass median location; hourly SSH linearly interpolated in time; pass surface and model anomalies centered within repeated native IBI nodes.",
+  "caveat": "This tests relative consistency of two gridded/modelled records. It is not a local tide-gauge validation, does not establish an absolute vertical datum tie, and does not resolve surf-zone water levels."
+}

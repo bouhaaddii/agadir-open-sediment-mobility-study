@@ -1,0 +1,7 @@
+{
+  "n_atl24_granules": 6,
+  "all_granule_central_90pct_depth_overlap_exists": false,
+  "max_granule_q05_m": 10.576414641742263,
+  "min_granule_q95_m": 7.244572652231078,
+  "interpretation": "No shared central depth domain across all passes means pooled transfer metrics combine different depth populations. Negative pooled R2 and high cross-granule errors indicate poor transferability in this open-data sample; do not use these estimates to claim a validated bathymetric map."
+}

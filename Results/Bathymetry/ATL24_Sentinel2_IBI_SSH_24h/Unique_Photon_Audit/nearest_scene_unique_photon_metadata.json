@@ -1,0 +1,31 @@
+{
+  "source_pairs": "G:\\Agadir_Open_Sediment_Mobility_Study\\Results\\Bathymetry\\ATL24_Sentinel2_IBI_SSH_24h\\s2_atl24_ibi_ssh_training_pairs_by_distance.csv.gz",
+  "deduplication_key": [
+    "granule_id",
+    "beam",
+    "source_photon_index"
+  ],
+  "source_photon_identifier": "ATL24 source_photon_index = ATL24 index_ph, the photon index inherited from ATL03; combined with granule_id and beam.",
+  "selection_rule": "For every ATL24 photon identity and distance threshold, retain the Sentinel-2 matchup with the smallest absolute time gap; ties are resolved by scene UTC and scene ID.",
+  "validation": "GroupKFold by full ATL24 granule, with fold-specific training median depth as a no-optical-predictor baseline.",
+  "models": [
+    "Log_blue_green_ratio_OLS",
+    "Multiband_RandomForest",
+    "Multiband_HistGradientBoosting"
+  ],
+  "target_scenarios": [
+    "raw_instantaneous_depth",
+    "IBI_zos_relative_adjustment"
+  ],
+  "interpretation": "This audit tests the sensitivity of reported skill to repeated use of the same ATL24 photon across multiple Sentinel-2 scenes. It does not validate a continuous bathymetry map or remove datum, IBI, runup, photon, or spatial sampling uncertainty.",
+  "original_rows_by_radius": {
+    "2.5": 1460,
+    "5.0": 3001,
+    "10.0": 3001
+  },
+  "unique_nearest_rows_by_radius": {
+    "2.5": 1460,
+    "5.0": 3001,
+    "10.0": 3001
+  }
+}

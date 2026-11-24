@@ -1,0 +1,50 @@
+{
+  "catalog_scene_items": 1648,
+  "catalog_distinct_dates": 1170,
+  "atl24_retained_points": 12715,
+  "atl24_granules_with_retained_points": 54,
+  "windows_are_symmetric_about_sentinel_acquisition": true,
+  "window_summaries": {
+    "1h": {
+      "candidate_scene_items": 1,
+      "candidate_distinct_dates": 1,
+      "unique_atl24_granules_represented": 1,
+      "scene_photon_pairs_sum_including_duplicate_items": 66,
+      "maximum_granules_near_one_scene": 1
+    },
+    "3h": {
+      "candidate_scene_items": 6,
+      "candidate_distinct_dates": 5,
+      "unique_atl24_granules_represented": 5,
+      "scene_photon_pairs_sum_including_duplicate_items": 924,
+      "maximum_granules_near_one_scene": 1
+    },
+    "6h": {
+      "candidate_scene_items": 12,
+      "candidate_distinct_dates": 11,
+      "unique_atl24_granules_represented": 11,
+      "scene_photon_pairs_sum_including_duplicate_items": 2570,
+      "maximum_granules_near_one_scene": 1
+    },
+    "12h": {
+      "candidate_scene_items": 23,
+      "candidate_distinct_dates": 21,
+      "unique_atl24_granules_represented": 21,
+      "scene_photon_pairs_sum_including_duplicate_items": 3314,
+      "maximum_granules_near_one_scene": 1
+    },
+    "24h": {
+      "candidate_scene_items": 57,
+      "candidate_distinct_dates": 42,
+      "unique_atl24_granules_represented": 42,
+      "scene_photon_pairs_sum_including_duplicate_items": 11406,
+      "maximum_granules_near_one_scene": 1
+    }
+  },
+  "limitations": [
+    "Temporal matching only; no per-pixel cloud, water, or image-footprint QA was performed.",
+    "Scene counts can include duplicate products or multiple items on the same date.",
+    "Wider windows are not exact co-temporal bathymetric matchups; tide and sea-level change must be assessed.",
+    "The selected column in the original Sentinel-2 catalogue was not changed."
+  ]
+}

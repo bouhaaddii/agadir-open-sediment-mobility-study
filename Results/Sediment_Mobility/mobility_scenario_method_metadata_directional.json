@@ -1,0 +1,30 @@
+{
+  "method": "scenario-envelope screen using linear wave theory, Swart wave friction, quadratic current drag, and Soulsby-Whitehouse critical Shields number",
+  "current_data": "regional daily IBI; nearest wet vertical level not deeper than the nominal bottom",
+  "wave_data": "hourly regional IBI; no surf-zone transformation",
+  "bathymetry": "G:\\Agadir_Open_Sediment_Mobility_Study\\Data\\Raw\\Bathymetry\\emodnet_mean_2022_anza.tif",
+  "bathymetry_sign_assumption": "negative_elevation",
+  "scenario_count_per_grain_class_maximum": 27,
+  "scenario_support_note": "Some grid cells omit depth-offset combinations that produce effective water depth <= 0.5 m; actual scenario_count is stored per row.",
+  "separate_stress_screen": "max(current stress, wave stress); non-additive screening estimate, not a formal bound on full wave-current stress",
+  "aligned_stress_envelope": "sum of current and wave stresses; aligned-forcing envelope, not a validated combined-stress solution",
+  "directional_combined_stress": "Soulsby DATA2 mean stress tau_m=tau_c[1+1.2(tau_w/(tau_c+tau_w))^3.2], then tau_max=sqrt[(tau_m+tau_w cos(phi))^2+(tau_w sin(phi))^2]; wave-current relative direction is computed from VMDR (wave-from converted to propagation) and IBI eastward/northward currents",
+  "directional_combined_stress_reference": "Soulsby, R.L. (1997), Dynamics of Marine Sands; Soulsby and Clarke (2005), Bed Shear-stresses Under Combined Waves and Currents on Smooth and Rough Beds, TR137",
+  "scenario_frequency_quantiles": "p10/median/p90 summarize the 27 prescribed parameter combinations; they are scenario sensitivity summaries, not confidence intervals or probabilities",
+  "interpretation": "scenario frequency is not a probability distribution, observed sediment flux, or measured grain-size-specific mobility",
+  "water_depth_offsets_m": [
+    -1.0,
+    0.0,
+    1.0
+  ],
+  "wave_height_multipliers": [
+    0.8,
+    1.0,
+    1.2
+  ],
+  "current_speed_multipliers": [
+    0.7,
+    1.0,
+    1.3
+  ]
+}
