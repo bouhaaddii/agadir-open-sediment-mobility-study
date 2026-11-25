@@ -46,3 +46,5 @@ __pycache__/
 /Scripts/91_create_reference_notes_for_all_dois.py
 /Scripts/92_retry_alternate_open_pdf_locations.py
 /Scripts/93_build_submission_manifest.py
+
+!/README.md
